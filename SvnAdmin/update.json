@@ -1,7 +1,7 @@
 {
 	"latestVersion": "2.1.2",
 	"fixedContent": [],
-	"newContent": [],
+	"newContent": ["1、本次更新为大版本更新", "2、SVN仓库用户即为管理系统用户", "3、增加SVN仓库用户组管理", "4、取消了原有的计划任务模块", "4、系统目前未使用包括Sqlite和MySQL在内的任何数据库"],
 	"releaseNode": {
 		"gitee": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/908887/download/v2.1.2.zip",
 		"github": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.1.2/v2.1.2.zip"
