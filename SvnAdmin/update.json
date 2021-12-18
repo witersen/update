@@ -1,11 +1,11 @@
 {
-	"latestVersion": "2.2",
-	"fixedContent": [],
-	"newContent": ["1、本次更新为大版本更新", "2、SVN仓库用户即为管理系统用户", "3、增加SVN仓库用户组管理", "4、取消了原有的计划任务模块", "4、系统目前未使用包括Sqlite和MySQL在内的任何数据库"],
+	"latestVersion": "2.2.1",
+	"fixedContent": ["1、修复特定条件下 为用户组授权 用户无法看到被授权仓库的bug"],
+	"newContent": [],
 	"updateType": "1",
-	"updateStep": "需要管理人员按照软件发布地址的更新教程登录个人服务器进行手动更新",
+	"updateStep": "需要管理员手动更新 基于v2.2版本的用户只需要覆盖 $path/app/controller/svnserve.class.php 文件即可",
 	"releaseNode": {
-		"gitee": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/916329/download/v2.2.zip",
-		"github": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.2/v2.2.zip"
+		"gitee": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/917758/download/v2.2.1.zip",
+		"github": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.2.1/v2.2.1.zip"
 	}
 }
