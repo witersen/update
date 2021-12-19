@@ -3,9 +3,9 @@
 	"fixedContent": ["1、修复特定条件下 为用户组授权 用户无法看到被授权仓库的bug"],
 	"newContent": [],
 	"updateType": "1",
-	"updateStep": "需要管理员手动更新 基于v2.2版本的用户只需要覆盖 $path/app/controller/svnserve.class.php 文件即可",
+	"updateStep": "需要管理员手动更新 基于v2.2版本的用户只需要覆盖 $path/app/controller/svnserve.class.php 文件 和 修改 $path/config/auto.config.php 中的版本号为 2.2.1 即可",
 	"releaseNode": {
-		"gitee": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/917758/download/v2.2.1.zip",
+		"gitee": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/917792/download/v2.2.1.zip",
 		"github": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.2.1/v2.2.1.zip"
 	}
 }
