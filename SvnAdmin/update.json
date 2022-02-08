@@ -5,7 +5,7 @@
 	"updateType": "1",
 	"updateStep": "需要管理员手动更新 1、基于现有版本手动升级的用户 (1)覆盖文件 $path/app/controller/svnserve.class.php (2)覆盖文件 $path/index.html (3)覆盖目录 $path/dist/ (4)修改文件 $path/config/auto.config.php 将 VERSION 所在行的版本信息改为 2.2.2 2、全新安装的用户 (1)只需要按照readme文件安装即可",
 	"releaseNode": {
-		"gitee": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/960491/download/v2.2.2.zip",
+		"gitee": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/960502/download/v2.2.2.zip",
 		"github": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.2.2/v2.2.2.zip"
 	}
 }
