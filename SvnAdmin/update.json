@@ -1,11 +1,22 @@
 {
-	"latestVersion": "2.2.2",
-	"fixedContent": [],
-	"newContent": ["1、增加SVN用户自行修改个人密码的功能"],
+	"latestVersion": "2.3",
+	"fixedContent": [
+        "1、修复SVN仓库权限配置的重大问题",
+		"2、完善用户权限控制逻辑"
+    ],
+	"newContent": [
+        "1、支持文件级授权",
+		"2、支持目录浏览",
+		"3、支持仓库备份与恢复",
+		"4、支持SVN用户禁用与启动",
+		"5、支持用户级日志记录",
+		"6、兼容PHP5.5+",
+		"7、主要兼容CentOS7/8，增加兼容Ubuntu、Rocky"
+    ],
 	"updateType": "1",
-	"updateStep": "需要管理员手动更新 1、基于现有版本手动升级的用户 (1)覆盖文件 $path/app/controller/svnserve.class.php (2)覆盖文件 $path/index.html (3)覆盖目录 $path/dist/ (4)修改文件 $path/config/auto.config.php 将 VERSION 所在行的版本信息改为 2.2.2 2、全新安装的用户 (1)只需要按照readme文件安装即可",
+	"updateStep": "需要管理员手动更新 1、基于现有版本手动升级的用户 (1)停止守护进程 php svnadmind.php stop (2)删除当前版本的程序代码 (3)按照GitHub文档进行全新安装 2、全新安装的用户 (1)按照GitHub文档进行全新安装",
 	"releaseNode": {
-		"gitee": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/960502/download/v2.2.2.zip",
-		"github": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.2.2/v2.2.2.zip"
+		"gitee": "",
+		"github": ""
 	}
 }
