@@ -1,14 +1,14 @@
 {
-    "version": "2.3",
+    "version": "2.3.1",
     "fixd": {
         "con": [
             {
                 "title": "1",
-                "content": "修复SVN仓库权限配置的bug"
+                "content": "修复Ununtu的系统信息显示问题"
             },
             {
                 "title": "2",
-                "content": "完善用户权限控制逻辑"
+                "content": "修复下载写入过多错误日志问题"
             }
         ]
     },
@@ -16,37 +16,20 @@
         "con": [
             {
                 "title": "1",
-                "content": "支持文件级授权"
+                "content": "支持修改数据存储主目录"
             },
             {
                 "title": "2",
-                "content": "支持目录浏览"
+                "content": "用户可自行关闭登录验证码"
             },
             {
                 "title": "3",
-                "content": "支持仓库备份与恢复"
-            },
-            {
-                "title": "4",
-                "content": "支持SVN用户禁用与启动"
-            },
-            {
-                "title": "5",
-                "content": "支持用户级日志记录"
-            },
-            {
-                "title": "6",
-                "content": "兼容PHP5.5+"
+                "content": "调整后台程序启动方式，支持加入系统管理和开机自启"
             }
         ]
     },
     "remove": {
-        "con": [
-            {
-                "title": "1",
-                "content": "暂时移除仓库钩子的配置功能"
-            }
-        ]
+        "con": []
     },
     "release": {
         "download": [
