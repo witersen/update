@@ -35,15 +35,11 @@
         "download": [
             {
                 "nodeName": "gitee.com",
-                "url": ""
+                "url": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/1099674/download/v2.3.1.zip"
             },
             {
                 "nodeName": "github.com",
-                "url": ""
-            },
-            {
-                "nodeName": "witersen.com",
-                "url": ""
+                "url": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.3.1/v2.3.1.zip"
             }
         ]
     },
