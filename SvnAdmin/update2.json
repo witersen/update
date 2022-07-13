@@ -1,14 +1,10 @@
 {
-    "version": "2.3.1",
+    "version": "2.3.2",
     "fixd": {
         "con": [
             {
                 "title": "1",
-                "content": "修复Ununtu的系统信息显示问题"
-            },
-            {
-                "title": "2",
-                "content": "修复下载写入过多错误日志问题"
+                "content": "修改仓库备份文件下载的问题"
             }
         ]
     },
@@ -16,15 +12,7 @@
         "con": [
             {
                 "title": "1",
-                "content": "支持修改数据存储主目录"
-            },
-            {
-                "title": "2",
-                "content": "用户可自行关闭登录验证码"
-            },
-            {
-                "title": "3",
-                "content": "调整后台程序启动方式，支持加入系统管理和开机自启"
+                "content": "支持docker部署"
             }
         ]
     },
@@ -35,11 +23,11 @@
         "download": [
             {
                 "nodeName": "gitee.com",
-                "url": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/1099674/download/v2.3.1.zip"
+                "url": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.3.2/v2.3.2.zip"
             },
             {
                 "nodeName": "github.com",
-                "url": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.3.1/v2.3.1.zip"
+                "url": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/1126164/download/v2.3.2.zip"
             }
         ]
     },
