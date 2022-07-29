@@ -1,20 +1,15 @@
 {
-    "version": "2.3.2",
+    "version": "2.3.3",
     "fixd": {
         "con": [
             {
                 "title": "1",
-                "content": "修改仓库备份文件下载的问题"
+                "content": "修复了文件或文件夹中存在特殊字符时造成的权限配置失效问题，请务必更新此版本"
             }
         ]
     },
     "add": {
-        "con": [
-            {
-                "title": "1",
-                "content": "支持docker部署"
-            }
-        ]
+        "con": []
     },
     "remove": {
         "con": []
@@ -23,11 +18,11 @@
         "download": [
             {
                 "nodeName": "gitee.com",
-                "url": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.3.2/v2.3.2.zip"
+                "url": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/1142120/download/v2.3.3.zip"
             },
             {
                 "nodeName": "github.com",
-                "url": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/1126164/download/v2.3.2.zip"
+                "url": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.3.3/v2.3.3.zip"
             }
         ]
     },
