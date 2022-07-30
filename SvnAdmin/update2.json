@@ -18,7 +18,7 @@
         "download": [
             {
                 "nodeName": "gitee.com",
-                "url": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/1142120/download/v2.3.3.zip"
+                "url": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/1142471/download/v2.3.3.zip"
             },
             {
                 "nodeName": "github.com",
@@ -33,19 +33,6 @@
                 "content": "php ${your_path}/server/install.php"
             }
         ],
-        "download": [
-            {
-                "nodeName": "gitee.com",
-                "packages": []
-            },
-            {
-                "nodeName": "github.com",
-                "packages": []
-            },
-            {
-                "nodeName": "witersen.com",
-                "packages": []
-            }
-        ]
+        "download": []
     }
 }
