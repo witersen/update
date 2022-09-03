@@ -1,15 +1,80 @@
 {
-    "version": "2.3.3",
+    "version": "2.3.3.1",
     "fixd": {
         "con": [
             {
                 "title": "1",
-                "content": "修复了文件或文件夹中存在特殊字符时造成的权限配置失效问题，请务必更新此版本"
+                "content": "重构了底层的匹配程序，修复2.3.3的诸多匹配问题"
+            },
+            {
+                "title": "2",
+                "content": "修复仓库钩子无效的问题"
+            },
+            {
+                "title": "3",
+                "content": "消除后台程序的警告问题"
+            },
+            {
+                "title": "4",
+                "content": "仓库目录浏览没有考虑面包屑过长的问题"
+            },
+            {
+                "title": "5",
+                "content": "关闭后台程序的二次检测提示"
+            },
+            {
+                "title": "6",
+                "content": "验证码生成后进行二次检测确保被写入数据库"
+            },
+            {
+                "title": "7",
+                "content": "修复不能创建单个字母命名的仓库的问题"
+            },
+            {
+                "title": "8",
+                "content": "修复多处文本过长导致的溢出问题"
+            },
+            {
+                "title": "9",
+                "content": "修复示例 pre-commit 中没有指定 svnlook 程序导致报错的问题"
+            },
+            {
+                "title": "10",
+                "content": "优化仓库列表的下标问题"
+            },
+            {
+                "title": "11",
+                "content": "创建信息时增加备注表单（用户、分组、仓库）"
+            },
+            {
+                "title": "12",
+                "content": "用户名中带有.造成的登录影响"
+            },
+            {
+                "title": "13",
+                "content": "修复迁移仓库后由于权限问题造成的识别失误问题"
             }
         ]
     },
     "add": {
-        "con": []
+        "con": [
+            {
+                "title": "1",
+                "content": "完全支持 Subversion 1.5+ 支持的authz特性"
+            },
+            {
+                "title": "2",
+                "content": "授权处支持搜索用户"
+            },
+            {
+                "title": "3",
+                "content": "增加仓库手动同步功能"
+            },
+            {
+                "title": "4",
+                "content": "增加 authz 在线检测功能"
+            }
+        ]
     },
     "remove": {
         "con": []
@@ -18,11 +83,11 @@
         "download": [
             {
                 "nodeName": "gitee.com",
-                "url": "https://gitee.com/witersen/SvnAdminV2.0/attach_files/1142471/download/v2.3.3.zip"
+                "url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/v2.3.3.1/2.3.3.1.zip"
             },
             {
                 "nodeName": "github.com",
-                "url": "https://github.com/witersen/SvnAdminV2.0/releases/download/v2.3.3/v2.3.3.zip"
+                "url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/v2.3.3.1/2.3.3.1.zip"
             }
         ]
     },
