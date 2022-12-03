@@ -48,6 +48,13 @@
                             "dest": "2.4.3"
                         },
                         "url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.3.1-v2.4.3/update.zip"
+                    },
+                    {
+                        "for": {
+                            "source": "2.3.3",
+                            "dest": "2.4.3"
+                        },
+                        "url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.3-v2.4.3/update.zip"
                     }
                 ]
             },
@@ -60,6 +67,13 @@
                             "dest": "2.4.3"
                         },
                         "url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.3.1-v2.4.3/update.zip"
+                    },
+                    {
+                        "for": {
+                            "source": "2.3.3",
+                            "dest": "2.4.3"
+                        },
+                        "url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.3-v2.4.3/update.zip"
                     }
                 ]
             }
