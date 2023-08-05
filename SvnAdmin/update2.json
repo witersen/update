@@ -79,7 +79,7 @@
         "step": [
             {
                 "title": "1",
-                "content": "php ${your_path}/server/install.php"
+                "content": "cd ${your_path}/server && php install.php"
             }
         ],
         "download": [
