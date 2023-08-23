@@ -1,5 +1,5 @@
 {
-	"version": "2.5.5",
+	"version": "2.5.6",
 	"add": {
 		"con": []
 	},
@@ -7,7 +7,7 @@
 		"con": [
 			{
 				"title": "1",
-				"content": "1、修复仓库钩子在某些操作系统环境下产生的bug"
+				"content": "修复ldap模式下，将成员自动加入分组时，成员重复造成的报错问题"
 			}
 		]
 	},
@@ -18,11 +18,11 @@
 		"download": [
 			{
 				"nodeName": "gitee.com",
-				"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/2.5.5/2.5.5.zip"
+				"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/2.5.6/2.5.6.zip"
 			},
 			{
 				"nodeName": "github.com",
-				"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/2.5.5/2.5.5.zip"
+				"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/2.5.6/2.5.6.zip"
 			}
 		]
 	},
@@ -40,112 +40,119 @@
 					{
 						"for": {
 							"source": "2.3",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.3.1",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.3.2",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.3.3",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.3.3.1",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.1",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.2",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.3",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.4",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.5",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.6",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.7",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.5.1",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.5.2",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.5.3",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.5.4",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
+						},
+						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
+					},
+					{
+						"for": {
+							"source": "2.5.5",
+							"dest": "2.5.6"
 						},
 						"url": "https://gitee.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					}
@@ -157,112 +164,119 @@
 					{
 						"for": {
 							"source": "2.3",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.3.1",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.3.2",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.3.3",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.3.3.1",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.1",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.2",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.3",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.4",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.5",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.6",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.4.7",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.5.1",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.5.2",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.5.3",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					},
 					{
 						"for": {
 							"source": "2.5.4",
-							"dest": "2.5.5"
+							"dest": "2.5.6"
+						},
+						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
+					},
+					{
+						"for": {
+							"source": "2.5.5",
+							"dest": "2.5.6"
 						},
 						"url": "https://github.com/witersen/SvnAdminV2.0/releases/download/update-v2.3.x-and-v2.4.x-to-v2.5.5/update.zip"
 					}
